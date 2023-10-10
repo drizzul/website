@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    
+        <meta charset="utf-8" />
+        <title>Drizzul - Car Wash</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="images/logo.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Ubuntu:wght@400;500&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" rel="stylesheet">
+
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet" />
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+        <link href="css/easy-responsive-tabs.css" rel='stylesheet' type='text/css'/>
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border text-primary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg navbar-light shadow sticky-top p-0">
+            <a
+                href="#"
+                class="navbar-brand d-flex align-items-center px-4 px-lg-5"
+                style="overflow: hidden"
+            >
+                <h2 class="m-0 text-primary">
+                    <img src="images/logo.png" alt="Drizzul" width="200" />
+                </h2>
+            </a>
+            <button
+                type="button"
+                class="navbar-toggler me-4"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html#home" class="nav-item nav-link active">Home</a>
+                    <a href="index.html#about-us" class="nav-item nav-link">About</a>
+                    <a href="index.html#services" class="nav-item nav-link">Services</a>
+                    <a href="index.html#plans" class="nav-item nav-link">Plans</a>
+                    <a href="index.html#faqs" class="nav-item nav-link">FAQs</a>
+                    <a href="index.html#contact" class="nav-item nav-link">Contact</a>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <style>
+
+            body{
+                background-color: #dee9ff;
+            }
+            
+            .registration-form{
+                padding: 50px 0;
+            }
+            
+            .registration-form form{
+                background-color: #fff;
+                max-width: 600px;
+                margin: auto;
+                padding: 50px 70px;
+                border-top-left-radius: 30px;
+                border-top-right-radius: 30px;
+                box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+            }
+            
+            .registration-form .form-icon{
+                text-align: center;
+                background-color: #5891ff;
+                border-radius: 50%;
+                font-size: 40px;
+                color: white;
+                width: 100px;
+                height: 100px;
+                margin: auto;
+                margin-bottom: 50px;
+                line-height: 100px;
+            }
+            
+            .registration-form .item{
+                border-radius: 20px;
+                margin-bottom: 25px;
+                padding: 10px 20px;
+            }
+            
+            .registration-form .create-account{
+                border-radius: 30px;
+                padding: 10px 20px;
+                font-size: 18px;
+                font-weight: bold;
+                background-color: #5791ff;
+                border: none;
+                color: white;
+                margin-top: 20px;
+            }
+            
+            .registration-form .social-media{
+                max-width: 600px;
+                background-color: #fff;
+                margin: auto;
+                padding: 35px 0;
+                text-align: center;
+                border-bottom-left-radius: 30px;
+                border-bottom-right-radius: 30px;
+                color: #9fadca;
+                border-top: 1px solid #dee9ff;
+                box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+            }
+            
+            .registration-form .social-icons{
+                margin-top: 30px;
+                margin-bottom: 16px;
+            }
+            
+            .registration-form .social-icons a{
+                font-size: 23px;
+                margin: 0 3px;
+                color: #5691ff;
+                border: 1px solid;
+                border-radius: 50%;
+                width: 45px;
+                display: inline-block;
+                height: 45px;
+                text-align: center;
+                background-color: #fff;
+                line-height: 45px;
+            }
+            
+            .registration-form .social-icons a:hover{
+                text-decoration: none;
+                opacity: 0.6;
+            }
+
+            @media (max-width: 576px) {
+                .registration-form form{
+                    padding: 50px 20px;
+                }
+            
+                .registration-form .form-icon{
+                    width: 70px;
+                    height: 70px;
+                    font-size: 30px;
+                    line-height: 70px;
+                }
+            }
+
+        </style>
+
+        
+        <div class="registration-form">
+            <form id="wash_form">
+                <div class="form-icon">
+                    <span><i class="icon icon-user"></i></span>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control item" id="full_name" placeholder="Full name">
+                </div>
+
+                <div class="form-group">
+                    <input type="text" class="form-control item" id="phone_number" placeholder="Phone Number">
+                </div>
+                
+                <select class="form-select" id="pin_code" aria-label="Pin code" style="margin-bottom: 25px; border-radius: 20px; padding: 10px 20px;">
+                    <option selected disabled>Select Area</option>
+                    <option value="Jayanagar">Jayanagar</option>
+                    <option value="JP Nagar">JP Nagar</option>
+                    <option value="Koramangala">Koramangala</option>
+                    <option value="BTM Layout">BTM Layout</option>
+                </select>
+
+                <select class="form-select" id="wash_type" aria-label="Pin code" style="margin-bottom: 25px; border-radius: 20px; padding: 10px 20px;">
+                    <option selected disabled>Wash Type</option>
+                    <option value="Power Wash">Power Wash - 700/-</option>
+                    <option value="Dry Wash">Dry Wash - 500/-</option>
+                </select>
+                
+                
+                <div class="form-group">
+                    <button type="submit" value="submit" class="btn btn-block create-account">Submit</button>
+                </div>
+            </form>
+        </div>
+
+
+        <script>
+            document.getElementById("wash_form").addEventListener("submit", function(event) {
+              event.preventDefault(); // Prevent the default form submission
+              
+              // Get form data
+              const formData = {
+                name: document.getElementById("full_name").value,
+                phone_no: document.getElementById("phone_number").value,
+                pin_code: document.getElementById("pin_code").value,
+                wash_type: document.getElementById("wash_type").value
+              };
+        
+              // Convert form data to JSON
+              const jsonData = JSON.stringify(formData);
+        
+              // Send JSON data to the API using fetch
+              fetch('https://wash-api.vercel.app/washing_requests/', {
+                method: 'POST',
+                headers: {
+                  'Content-Type': 'application/json'
+                },
+                body: jsonData
+              })
+              .then(response => {
+                if (response.status === 200) {
+                  // Success: show a success popup
+                  return response.json().then(data => {
+                    console.log(data); // Handle the API response data
+                    alert("Washing request received successfully!");
+                  });
+                } else {
+                  // Failure: show an error popup
+                  console.error('Error:', response.status);
+                  alert("Request submission failed. Please try again later.");
+                }
+              })
+              .catch(error => {
+                // Handle any errors
+                console.error('Error:', error);
+                alert("An error occurred. Please try again later.");
+              });
+            });
+          </script>
+
+
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div
+                style="display: hidden; position: relative; top: -100px"
+                id="contact"
+            ></div>
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="position-relative">
+                            <img
+                                class="position-absolute top-50"
+                                style="top: -140px !important"
+                                width="200"
+                                src="images/logo.png"
+                                alt="Drizzul"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">Address</h4>
+                        <p class="mb-2">
+                            <i class="fa fa-map-marker-alt me-3"></i>At your Doorstep!!!
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt me-3"></i>+91 73496 77846
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt me-3"></i>+91 95357 89228
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope me-3"></i
+                            >drizzulwash@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">Opening Hours</h4>
+                        <h6 class="text-light">Monday - Friday:</h6>
+                        <p class="mb-4">07.00 AM - 09.00 PM</p>
+                        <h6 class="text-light">Saturday - Sunday:</h6>
+                        <p class="mb-0">07.00 AM - 12.00 AM</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">Services</h4>
+                        <a class="btn btn-link" href="">Waterless Wash</a>
+                        <a class="btn btn-link" href="">Scratch Removal</a>
+                        <a class="btn btn-link" href="">Hand Waxing</a>
+                        <a class="btn btn-link" href="">Interior Vacuuming</a>
+                        <a class="btn btn-link" href="">Detailing</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div
+                            class="col-md-6 text-center text-md-start mb-3 mb-md-0"
+                        >
+                            &copy;
+                            <a class="border-bottom" href="index.html#home">Drizzul</a>,
+                            All Right Reserved
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script>
+            var links = document.querySelectorAll(".nav-link.nav-item");
+            for (let i = 0; i < links.length; i++) {
+                const ele = links[i];
+                console.log(ele);
+                ele.addEventListener("click", function (e) {
+                    console.log("click");
+                    links.forEach((element) => {
+                        element.classList.remove("active");
+                    });
+                    ele.classList.add("active");
+                });
+            }
+            </script>
+        <!-- script for responsive tabs -->						
+    <script src="js/easy-responsive-tabs.js"></script>
+    <script>
+$(document).ready(function () {
+$('#horizontalTab').easyResponsiveTabs({
+type: 'default', //Types: default, vertical, accordion           
+width: 'auto', //auto or any width like 600px
+fit: true,   // 100% fit in a container
+closed: 'accordion', // Start closed if in accordion view
+activate: function(event) { // Callback function if tab is switched
+var $tab = $(this);
+var $info = $('#tabInfo');
+var $name = $('span', $info);
+$name.text($tab.text());
+$info.show();
+}
+});
+$('#verticalTab').easyResponsiveTabs({
+type: 'vertical',
+width: 'auto',
+fit: true
+});
+});
+</script>
+<!-- //script for responsive tabs -->
+</body>
+</html>
